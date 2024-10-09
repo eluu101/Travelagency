@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Exo 2", sans-serif;
+}
+
+nav{
+    padding-block: 1rem;
+}
+.gen_layout{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.inner_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inner_nav > h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.nav_items{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav_items >a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.nav_items > button{
+    padding: .6rem 1.5rem;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.btn1{
+    background-color: #fff;
+    color: #6258a5;
+    font-weight: 700;
+    border: 2px solid;
+}
+.btn2{
+    border: none;
+    color: #fff;
+    background-color: #5649a3;
+}
+.bg_image{
+    height: 60vh;
+    border-radius: 20px;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg_content{
+    width: 600px;
+    color: #fff;
+}
+.bg_content > h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bg_content >p{
+    text-align: center;
+    margin-block: 1rem;
+    font-weight: 100;
+}
+.bg_button_container{
+    width: 200px;
+    margin: auto;
+}
+.bg_button_container > button{
+    width: 100%;
+    padding: .6rem 1rem;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+} 
+
+/* styling for sec two */
+.sec_two{
+    background-color: rgb(243 247 249)
+}
+.bookings{
+    max-width: 850px;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    border: 2px solid transparent;
+}
+
+.book_card{
+    /* border: 2px solid blue; */
+    background-color: #fff;
+    width: 35%;
+    /* height: 60vh; */
+    border-radius: 10px;
+    padding: .5rem;
+    margin-top: -2rem;
+}
+
+.book_card >img{
+    width: 100%;
+    border-radius: 10px;
+}
+.book_card_content{
+    width: 270px;
+    margin: auto;
+}
+
+.book_card_content > h2{
+    text-transform: uppercase;
+}
+.book_card_content >p{
+    margin-block: 15px;
+    width: 300px;
+    font-size: 14px;
+    opacity: .3;
+}
+.book_card_content > button{
+    width: 100%;
+    padding: .6rem 1rem;
+    border-radius: 25px;
+}
+.book_card_content >button{
+    width: 100%;
+    padding: .6rem 1rem;
+    border-radius: 25px;
+    border: 1px solid #3d7291;
+    background-color: transparent;
+    color: #3d7291;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+}
