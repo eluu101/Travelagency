@@ -1,90 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Agency</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<!-- nav bar-->
- <nav>
-    <div class="inner_nav gen_layout">
-    <h1>tr <span><i class="fa fa-plane" aria-hidden="true"></i></span>vel</h1>
+  <body>
+    <!-- nav bar-->
+    <nav>
+      <div class="inner_nav gen_layout">
+        <h1>
+          tr <span><i class="fa fa-plane" aria-hidden="true"></i></span>vel
+        </h1>
 
-    <div class="nav_items">
-    <a href="#">home</a>
-    <a href="#">about</a>
-    <a href="#">services</a>
-    <button class="btn1">log in</button>
-    <button class="btn2">sign up</button>
-    <div>
-    </div>
- </nav>
+        <!-- hamburger code -->
+        <label for="toggle" class="hamburger">&#9776;</label>
+        <input type="checkbox" id="toggle" />
 
- <!-- main area -->
+        <div class="nav_right">
+          
+        <div class="nav_items">
+          <a href="#">home</a>
+          <a href="#">about</a>
+          <a href="#">services</a>
+          <button class="btn1">log in</button>
+          <button class="btn2">sign up</button>
+        </div>
+        </div>
+      </div>
+    </nav>
 
- <main>
- <section>
-    <div class="bg_image gen_layout">
-        <div class="bg_content">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aut minus ab ullam pariatur. Autem molestiae fugiat similique eum, ea quasi veritatis b</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, itaque? Fuga quibusdam exercitationem non illo, nobis incidunt alias sit necessitatibus error doloremque quae nesciunt nisi, eveniet  mollitia.</p>
+    <!-- main area -->
+
+    <main>
+      <section class="sec_one">
+        <div class="bg_image gen_layout">
+          <div class="bg_content">
+            <h1>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              aut minus ab ullam pariatur. Autem molestiae fugiat similique eum,
+              ea quasi veritatis b
+            </h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              itaque? Fuga quibusdam exercitationem non illo, nobis incidunt
+              alias sit necessitatibus error doloremque quae nesciunt nisi,
+              eveniet mollitia.
+            </p>
 
             <div class="bg_button_container">
-                <button>explore now</button>
+              <button>explore now</button>
+            </div>
+          </div>
         </div>
+      </section>
+
+      <!--section two-->
+      <section class="sec_two gen_layout">
+        <div class="bookings">
+          <!--first card-->
+          <div class="book_card">
+            <div class="img_wrap">
+              <span>1</span>
+              <img src="images/bg.jpg" alt="nature" />
+              </div>
+
+            <div class="book_card_content">
+              <h2>bali</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
+                dolorum dolor vel tempora quisquam esse numquam eos accusamus
+                consequuntur, sint voluptate beatae
+              </p>
+              <button class="btn_btn">explore</button>
+            </div>
+          </div>
+          <div class="book_card">
+            <div class="img_wrap">
+              <span>2</span>
+              <img src="images/bg.jpg" alt="nature" />
+              </div>
+
+            <div class="book_card_content">
+              <h2>bali</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
+                dolorum dolor vel tempora quisquam esse numquam eos accusamus
+                consequuntur, sint voluptate beatae
+              </p>
+              <button class="btn_btn">explore</button>
+            </div>
+          </div>
+          <div class="book_card">
+            <div class="img_wrap">
+              <span>3</span>
+              <img src="images/bg.jpg" alt="nature" />
+              </div>
+            <div class="book_card_content">
+              <h2>bali</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
+                dolorum dolor vel tempora quisquam esse numquam eos accusamus
+                consequuntur, sint voluptate beatae
+              </p>
+              <button class="btn_btn">explore</button>
+            </div>
+          </div>
         </div>
-    </div>
- </section>  
- 
- <!--section two-->
- <section class="sec_ two_ gen_layout">
-    <div class="bookings">
-        <!--first card-->
-        <div class="book_card">
-            <img src="images/bg.jpg" alt="nature" />
 
-            <div class="book_card_content">
-                <h2>bali</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                   Id dolorum dolor vel tempora quisquam esse numquam eos accusamus consequuntur, 
-                   sint voluptate beatae
-                </p>
-                <button>explore</button>
+        <!--progress code-->
+        <div class="progress">
+          <div class="progress_chart">
+            <span><i class="fa fa-user" aria-hidden="true"></i></i></span>
+
+            <div class="chart_num">
+              <h6>45</h6>
+              <h4>flight</h4>
+            </div>
+          </div>
+          <div class="progress_chart">
+            <span><i class="fa fa-plane" aria-hidden="true"></i></i></span>
+
+            <div class="chart_num">
+              <h6>45</h6>
+              <h4>flight</h4>
+            </div>
+          </div>
+          <div class="progress_chart">
+            <span><i class="fa fa-line-chart" aria-hidden="true"></i></span>
+
+            <div class="chart_num">
+              <h6>45</h6>
+              <h4>flight</h4>
+            </div>
+          </div>
+          <div class="progress_chart">
+            <span><i class="fa fa-line-chart" aria-hidden="true"></i></span>
+
+            <div class="chart_num">
+              <h6>45</h6>
+              <h4>flight</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--section three-->
+      <section>
+        <div class="locations gen_layout">
+          <h2>locations</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere
+            error iure soluta amet ea quidem fugit totam! Reprehenderit culpa
+            voluptate aliquid, beatae similique corpor
+          </p>
+
+          <div class="location_grid">
+            <!--first grid card-->
+            <div class="location_grid_card">
+              <!--card top-->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./images/bg.jpg" alt="seattle" />
+                  <h5>seattle</h5>
                 </div>
 
-    </div>
-        <div class="book_card">
-            <img src="images/bg.jpg" alt="nature" />
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>pop: 4,500 000</h6>
+                </div>
+              </div>
+              <img src="./images/bg.jpg" alt="place" />
 
-            <div class="book_card_content">
-                <h2>bali</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                   Id dolorum dolor vel tempora quisquam esse numquam eos accusamus consequuntur, 
-                   sint voluptate beatae
+              <div class="grid_card_body">
+                <h1>seattle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus velit consequuntur possimus accusamus neque
+                  tempore, dolore nihil pariatur veniam officia molestias, a
+                  saepe laborum rerum ratione perferendis aperiam recusand
+                  <button class="btn_btn">visit</button>
                 </p>
-                <button>explore</button>
+              </div>
+            </div>
+            <div class="location_grid_card">
+              <!--card top-->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./images/bg.jpg" alt="seattle" />
+                  <h5>seattle</h5>
                 </div>
 
-    </div>
-        <div class="book_card">
-            <img src="images/bg.jpg" alt="nature" />
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>pop: 4,500 000</h6>
+                </div>
+              </div>
+              <img src="./images/bg.jpg" alt="place" />
 
-            <div class="book_card_content">
-                <h2>bali</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                   Id dolorum dolor vel tempora quisquam esse numquam eos accusamus consequuntur, 
-                   sint voluptate beatae
+              <div class="grid_card_body">
+                <h1>seattle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus velit consequuntur possimus accusamus neque
+                  tempore, dolore nihil pariatur veniam officia molestias, a
+                  saepe laborum rerum ratione perferendis aperiam recusand
+                  <button class="btn_btn">visit</button>
                 </p>
-                <button>explore</button>
+              </div>
+            </div>
+            <div class="location_grid_card">
+              <!--card top-->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./images/bg.jpg" alt="seattle" />
+                  <h5>seattle</h5>
                 </div>
 
-    </div>
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>pop: 4,500 000</h6>
+                </div>
+              </div>
+              <img src="./images/bg.jpg" alt="place" />
 
- </section>
-</main>
-    
-</body>
+              <div class="grid_card_body">
+                <h1>seattle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus velit consequuntur possimus accusamus neque
+                  tempore, dolore nihil pariatur veniam officia molestias, a
+                  saepe laborum rerum ratione perferendis aperiam recusand
+                  <button class="btn_btn">visit</button>
+                </p>
+              </div>
+            </div>
+            <div class="location_grid_card">
+              <!--card top-->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./images/bg.jpg" alt="seattle" />
+                  <h5>seattle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>pop: 4,500 000</h6>
+                </div>
+              </div>
+              <img src="./images/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seattle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus velit consequuntur possimus accusamus neque
+                  tempore, dolore nihil pariatur veniam officia molestias, a
+                  saepe laborum rerum ratione perferendis aperiam recusand
+                  <button class="btn_btn">visit</button>
+                </p>
+              </div>
+            </div>
+            <div class="location_grid_card">
+              <!--card top-->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./images/bg.jpg" alt="seattle" />
+                  <h5>seattle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>pop: 4,500 000</h6>
+                </div>
+              </div>
+              <img src="./images/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seattle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus velit consequuntur possimus accusamus neque
+                  tempore, dolore nihil pariatur veniam officia molestias, a
+                  saepe laborum rerum ratione perferendis aperiam recusand
+                  <button class="btn_btn">visit</button>
+                </p>
+              </div>
+            </div>
+            <div class="location_grid_card">
+              <!--card top-->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./images/bg.jpg" alt="seattle" />
+                  <h5>seattle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>pop: 4,500 000</h6>
+                </div>
+              </div>
+              <img src="./images/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seattle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus velit consequuntur possimus accusamus neque
+                  tempore, dolore nihil pariatur veniam officia molestias, a
+                  saepe laborum rerum ratione perferendis aperiam recusand
+                  <button class="btn_btn">visit</button>
+                </p>
+              </div>
+            </div>
+            <div class="location_grid_card">
+              <!--card top-->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./images/bg.jpg" alt="seattle" />
+                  <h5>seattle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>pop: 4,500 000</h6>
+                </div>
+              </div>
+              <img src="./images/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seattle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus velit consequuntur possimus accusamus neque
+                  tempore, dolore nihil pariatur veniam officia molestias, a
+                  saepe laborum rerum ratione perferendis aperiam recusand
+                  <button class="btn_btn">visit</button>
+                </p>
+              </div>
+            </div>
+            <div class="location_grid_card">
+              <!--card top-->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./images/bg.jpg" alt="seattle" />
+                  <h5>seattle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>pop: 4,500 000</h6>
+                </div>
+              </div>
+              <img src="./images/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seattle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus velit consequuntur possimus accusamus neque
+                  tempore, dolore nihil pariatur veniam officia molestias, a
+                  saepe laborum rerum ratione perferendis aperiam recusand
+                  <button class="btn_btn">visit</button>
+                </p>
+              </div>            
+            </div>
+            <div class="location_grid_card">
+              <!--card top-->
+              <div class="grid_card_top">
+                <div class="card_top_profile">
+                  <img src="./images/bg.jpg" alt="seattle" />
+                  <h5>seattle</h5>
+                </div>
+
+                <div class="card_top_stat">
+                  <span>region</span>
+                  <h6>pop: 4,500 000</h6>
+                </div>
+              </div>
+              <img src="./images/bg.jpg" alt="place" />
+
+              <div class="grid_card_body">
+                <h1>seattle remote worker</h1>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Temporibus velit consequuntur possimus accusamus neque
+                  tempore, dolore nihil pariatur veniam officia molestias, a
+                  saepe laborum rerum ratione perferendis aperiam recusand
+                  <button class="btn_btn">visit</button>
+                </p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
